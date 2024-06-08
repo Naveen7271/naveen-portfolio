@@ -1,14 +1,11 @@
 "use client"
-
-import { Description } from "@radix-ui/react-dialog";
 import {
     FaHtml5,
     FaCss3,
     FaJs,
     FaReact,
-    FaFigma,
+    FaWordpress,
     FaNodeJs,
-    FaRegObjectUngroup,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -66,6 +63,7 @@ const experience = {
             duration: "Jun 2022-Dec 2022",
         },
 
+
     ]
 };
 
@@ -108,7 +106,7 @@ const skills = {
             name: "next.js",
         },
         {
-            icon: <SiNextdotjs />,
+            icon: <SiTailwindcss />,
             name: "tailwind.css",
         },
         {
@@ -116,8 +114,8 @@ const skills = {
             name: "node.js",
         },
         {
-            icon: <FaNodeJs />,
-            name: "node.js",
+            icon: <FaWordpress />,
+            name: "wordpress",
         },
     ]
 };
@@ -190,12 +188,12 @@ const Resume = () => {
                                         {Education.items.map((item, index) => {
                                             return (
                                                 <li key={index} className="bg-[#232329] h-[184px]
-                                                py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                                                py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-2">
                                                     <span className="text-accent">{item.degree}</span>
-                                                    <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
+                                                    {/* <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3> */}
                                                     <div className="flex items-center gap-3">
                                                         <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                        <p className="text-white/60">{item.Institute}</p>
+                                                        <p className="text-white/60 ">{item.Institute}</p>
                                                     </div>
                                                 </li>
                                             )
