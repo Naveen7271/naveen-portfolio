@@ -15,19 +15,19 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num: '01',
-        category: 'Front-end',
+        category: 'Chat Application',
         title: 'Naveen Portfolio',
-        description: 'This is my portfolio website',
+        description: 'Developed a real-time chat application using Node.js and Socket.io',
         stack: [
             {
-                name: "HTml"
+                name: "Node.js"
             }, {
-                name: "CSS"
+                name: "Socket.io"
             }, {
                 name: "JavaScript"
             }],
-        image: "/assets/work/thumb1.png",
-        live: "",
+        image: "/assets/work/p1.png",
+        live: "https://chatapplication-naveenn7271.b4a.run/",
         github: "",
     },
     {

@@ -9,28 +9,28 @@ const services = [
         num: "01",
         title: "Web Development",
         Description:
-            "what thealkjshg;kjad;kjghaskdjhgk",
+            "Proficient in full-stack web development, leveraging modern technologies to build responsive applications",
         href: ""
     },
     {
         num: "02",
         title: "Backend Development",
         Description:
-            "what thealkjshg;kjad;kjghaskdjhgk",
+            "Experienced in backend development, specializing in creating scalable, and secure server-side applications",
         href: ""
     },
     {
         num: "03",
         title: "Software Development",
         Description:
-            "what thealkjshg;kjad;kjghaskdjhgk",
+            "Skilled in software development, delivering high-quality, efficient, and maintainable code for diverse applications",
         href: ""
     },
     {
         num: "04",
         title: "Wordpress Development",
         Description:
-            "what thealkjshg;kjad;kjghaskdjhgk",
+            "Expert in WordPress development, crafting custom themes and plugins to enhance website functionality",
         href: ""
     },
 
