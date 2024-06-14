@@ -26,12 +26,12 @@ const info = [
     {
         icon: <FaEnvelope />,
         title: 'Email',
-        info1: '<a href="mailto:  ">  </a>'
+        info1: 'naveenn7271@gmail.com'
     },
     {
         icon: <FaMapMarkedAlt />,
         title: 'Address',
-        info1: '<a href=",1">  </a>'
+        info1: 'India'
     }
 ]
 import { motion } from "framer-motion";
@@ -48,7 +48,7 @@ const Contact = () => {
                     <div className="xl:w-[54%] order-2 xl:order-none">
                         <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                             <h3 className="text-4xl text-accent">Lets work Together</h3>
-                            <p className="text-white/60">hafhkjsdhfkajhsdfkjhsdlkfhasdkfh</p>
+                            {/* <p className="text-white/60">hafhkjsdhfkajhsdfkjhsdlkfhasdkfh</p> */}
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <Input type="firstname" placeholder="Firstname" />
@@ -63,9 +63,10 @@ const Contact = () => {
                                 <SelectContent>
                                     <SelectGroup>
                                         <SelectLabel>Select a service</SelectLabel>
-                                        <SelectItem value="est">Web Dev</SelectItem>
-                                        <SelectItem value="cst">Subject 1</SelectItem>
-                                        <SelectItem value="mst">Subject 2</SelectItem>
+                                        <SelectItem value="est">Web Development</SelectItem>
+                                        <SelectItem value="cst">Backend Development</SelectItem>
+                                        <SelectItem value="mst">Software Development</SelectItem>
+                                        <SelectItem value="mst">Wordpress Development</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
