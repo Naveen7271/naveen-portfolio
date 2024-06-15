@@ -38,6 +38,13 @@ import { motion } from "framer-motion";
 
 
 const Contact = () => {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        // Handle form submission logic here
+        console.log("Form submitted");
+    };
+
     return (
         <motion.section
             initial={{ opacity: 0 }}
@@ -72,7 +79,7 @@ const Contact = () => {
                             </Select>
                             <Textarea className="h-[200px]"
                                 placeholder="Type your message here." />
-                            <Button size="md" className="max-w-40">
+                            <Button onClick={handleSubmit} size="md" className="max-w-40">
                                 Send message
                             </Button>
                         </form>
