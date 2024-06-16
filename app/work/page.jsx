@@ -28,39 +28,37 @@ const projects = [
             }],
         image: "/assets/work/p1.png",
         live: "https://chatapplication-naveenn7271.b4a.run/",
-        github: "",
+        github: "https://github.com/Naveen7271/Chat-application",
     },
     {
         num: '02',
-        category: 'Front-end',
+        category: 'Car Club',
         title: 'Naveen Portfolio',
-        description: 'This is my portfolio website',
+        description: 'Designed and developed a car catalog website using Next.js and REST API',
         stack: [
             {
-                name: "HTml"
+                name: "Next.js"
             }, {
-                name: "CSS"
-            }, {
-                name: "JavaScript"
-            }],
-        image: "/assets/work/thumb1.png",
+                name: "REST API"
+            }
+        ],
+        image: "/assets/work/p4.png",
         live: "",
-        github: "",
+        github: "https://github.com/Naveen7271/Car-club",
     },
     {
         num: '03',
-        category: 'Front-end',
+        category: 'Globus Learn',
         title: 'Naveen Portfolio',
-        description: 'This is my portfolio website',
+        description: 'Built a website for an education technology company using PHP',
         stack: [
             {
-                name: "HTml"
+                name: "PHP"
             }, {
-                name: "CSS"
-            }, {
-                name: "JavaScript"
-            }],
-        image: "/assets/work/thumb1.png",
+                name: "Codeigniter"
+            }
+        ],
+        image: "/assets/work/b2.png",
         live: "",
         github: "",
     },
@@ -134,7 +132,7 @@ const Work = () => {
                         >
                             {projects.map((project, index) => {
                                 return (<SwiperSlide key={index} className="w-full" >
-                                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                                    <div className="h-[480px] relative group flex justify-center items-center bg-pink-50/20">
                                         <div className="absolute top-0 buttom-0 
                                         w-full h-full bg-black/10 z-10"></div>
 
