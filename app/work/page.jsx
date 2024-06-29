@@ -34,7 +34,7 @@ const projects = [
         github: "https://github.com/Naveen7271/React-Weather-App",
     },
     {
-        num: '01',
+        num: '02',
         category: 'Chat Application',
         title: 'Naveen Portfolio',
         description: 'Developed a real-time chat application using Node.js and Socket.io',
@@ -51,7 +51,7 @@ const projects = [
         github: "https://github.com/Naveen7271/Chat-application",
     },
     {
-        num: '02',
+        num: '03',
         category: 'Car Club',
         title: 'Naveen Portfolio',
         description: 'Designed and developed a car catalog website using Next.js and REST API',
@@ -67,7 +67,7 @@ const projects = [
         github: "https://github.com/Naveen7271/Car-club",
     },
     {
-        num: '03',
+        num: '04',
         category: 'Globus Learn',
         title: 'Naveen Portfolio',
         description: 'Built a website for an education technology company using PHP',
