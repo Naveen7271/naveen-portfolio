@@ -15,6 +15,26 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num: '01',
+        category: 'Weather App',
+        title: 'Naveen Portfolio',
+        description: 'Weather App using React.js. It allows users to search for the weather conditions of any city in the world and provides current weather information. The app fetches weather data using the SheCodes Weather API.',
+        stack: [
+            {
+                name: "React.js"
+            }, {
+                name: "HTML"
+            }, {
+                name: "CSS"
+            },
+            {
+                name: "Weather API"
+            }],
+        image: "/assets/work/1211.png",
+        live: "https://react-weather-app-ten-gules.vercel.app/",
+        github: "https://github.com/Naveen7271/React-Weather-App",
+    },
+    {
+        num: '01',
         category: 'Chat Application',
         title: 'Naveen Portfolio',
         description: 'Developed a real-time chat application using Node.js and Socket.io',
